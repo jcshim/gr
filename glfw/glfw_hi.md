@@ -1,3 +1,4 @@
+# Visual Studio 설정에서 nuget에서 glfw 검색 후 설치
 ```
 #include <GLFW/glfw3.h>
 #include <iostream>
