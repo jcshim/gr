@@ -1,10 +1,3 @@
-물론입니다! 아래는 **Visual Studio에서 Vulkan을 사용해 윈도우를 만들고, 화면을 초록색으로 Clear하는 간단한 예제 코드**입니다.  
-
-> ✅ 이 코드는 **모든 Vulkan 관련 초기화, 인스턴스 생성, 디바이스 선택, 스왑체인 설정, 렌더 패스, 커맨드 버퍼 등 기본 루틴**을 포함합니다.  
-> ✅ **헤더 분리 없이 하나의 `main.cpp` 파일**로 제공하며, **Visual Studio 프로젝트 설정**도 안내드리겠습니다.
-
----
-
 ## ✅ Visual Studio 설정 전제
 - **Vulkan SDK 설치:** [https://vulkan.lunarg.com/](https://vulkan.lunarg.com/)
 - 설치 후, **환경변수(VULKAN_SDK)**가 자동 설정됩니다.
