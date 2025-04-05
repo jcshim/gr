@@ -128,5 +128,11 @@ void main() {
 
 ## 추가로 궁금한 점:
 - GLSL → SPIR-V 컴파일 방법?
+
+C:/VulkanSDK/1.4.309.0/Bin/glslc.exe shader.vert -o vert.spv
+C:/VulkanSDK/1.4.309.0/Bin/glslc.exe shader.frag -o frag.spv
+
 - Vulkan 파이프라인에서 쉐이더 연결법?
 - 쉐이더에서 텍스처, 조명 구현 방법?
+
+
