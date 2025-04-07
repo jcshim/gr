@@ -1,4 +1,3 @@
-﻿#pragma comment(lib, "vulkan-1.lib")
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
 
