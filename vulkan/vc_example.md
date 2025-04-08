@@ -1,4 +1,4 @@
-좋아요! **Visual Studio에서 Vulkan으로 삼각형을 출력하기 위한 가장 간단한 전체 설정 방법**을 순서대로 정확히 안내할게요. 초보자 기준으로 아주 친절하게!
+# **Visual Studio에서 Vulkan으로 삼각형을 출력하기
 
 ---
 
@@ -13,21 +13,12 @@
 ## ✅ 2단계: Visual Studio 프로젝트 생성
 
 1. Visual Studio 실행 → `콘솔 애플리케이션(C++)` 새 프로젝트 생성
-2. 이름 예: `vk`
+2. 이름 예: `vk1`
 
 ---
 
 ## ✅ 3단계: NuGet으로 GLFW 설치
 1. Visual Studio ** 프로젝트 > NuGet 패키지 관리자 > 찿아보기 > glfw ** 설치하기
-또는 
-1. 상단 메뉴에서 **도구 > NuGet 패키지 관리자 > 패키지 관리자 콘솔** 클릭
-2. 아래 명령어 입력:
-
-```powershell
-Install-Package glfw -Version 3.3.8.1
-```
-
-(최신 버전 자동으로 설치해도 됩니다.)
 
 ---
 
@@ -115,9 +106,11 @@ glslc shader.frag -o frag.spv
 
 ---
 
-## ✅ 7단계: 삼각형 그리는 전체 코드 추가
+## ✅ 7단계: 삼각형 그리는 전체 코드 복사하여 추가
 
 ### **[삼각형을 실제로 그리는 전체 코드](https://vulkan-tutorial.com/code/17_swap_chain_recreation.cpp)**
+
+---
 
 ## ✅ 8단계: Visual Studio 버전 바꾸기
 
