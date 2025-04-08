@@ -13,12 +13,13 @@
 ## ✅ 2단계: Visual Studio 프로젝트 생성
 
 1. Visual Studio 실행 → `콘솔 애플리케이션(C++)` 새 프로젝트 생성
-2. 이름 예: `VulkanTriangle`
+2. 이름 예: `vk`
 
 ---
 
 ## ✅ 3단계: NuGet으로 GLFW 설치
-
+1. Visual Studio ** 프로젝트 > NuGet 패키지 관리자 > 찿아보기 > glfw ** 설치하기
+또는 
 1. 상단 메뉴에서 **도구 > NuGet 패키지 관리자 > 패키지 관리자 콘솔** 클릭
 2. 아래 명령어 입력:
 
@@ -63,7 +64,7 @@ int main() {
 
 예시:
 ```glsl
-// triangle.vert
+// shader.vert
 #version 450
 layout(location = 0) in vec2 inPos;
 void main() {
@@ -72,7 +73,7 @@ void main() {
 ```
 
 ```glsl
-// triangle.frag
+// shader.frag
 #version 450
 layout(location = 0) out vec4 outColor;
 void main() {
@@ -88,8 +89,8 @@ void main() {
 2. 명령어 (cmd에서 실행):
 
 ```bash
-glslc triangle.vert -o triangle.vert.spv
-glslc triangle.frag -o triangle.frag.spv
+glslc shader.vert -o vert.spv
+glslc shader.frag -o frag.spv
 ```
 
 ---
@@ -103,14 +104,4 @@ glslc triangle.frag -o triangle.frag.spv
 
 ## ✅ 8단계: 삼각형 그리는 전체 코드 추가
 
-원하신다면 이 모든 걸 합쳐 **삼각형을 실제로 그리는 전체 코드**를 바로 제공해드릴게요. (지금 코드 베이스에서 이어지는 방식으로)
-
----
-
-👉 다음 중 원하는 걸 알려주세요:
-
-- [ ] 창만 띄우는 버전에서 삼각형 출력까지 이어서 설명 원함
-- [ ] 삼각형 출력 포함된 완성된 전체 소스코드 원함
-- [ ] CMake로 구성된 깃허브 예제 프로젝트 원함
-
-원하는 방식대로 도와드릴게요!
+### **[삼각형을 실제로 그리는 전체 코드](https://vulkan-tutorial.com/code/17_swap_chain_recreation.cpp)**
