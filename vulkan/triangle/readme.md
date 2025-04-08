@@ -43,7 +43,7 @@ vulkan-1.lib
 
 ### ✅ 5. 삼각형 출력 코드 작성
 - `main.cpp`에 Vulkan 초기화 및 그리기 코드를 작성 (필요 시 예제 코드 제공 가능)
-
+<span style="color:red"> red </span>
 ### <span style="color:red">오류 해결방안 / VS 17 이상을 설정해야 함.</span>
 #### 프로젝트 > 속성 > 구성 속성 > 일반 > 플랫폼 도구 집합 > Visual Studio 2022 (v143) 선택
 
