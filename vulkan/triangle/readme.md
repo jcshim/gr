@@ -1,5 +1,5 @@
 ## Windows에서 Visual Studio로 Vulkan 무지게삼각형 그리기
-### [Drawing a triangle](https://docs.vulkan.org/tutorial/latest/00_Introduction.html)
+### [Drawing a triangle](https://docs.vulkan.org/tutorial/latest/_attachments/16_frames_in_flight.cpp)
 
 ### ✅ 1. Vulkan SDK 설치: https://vulkan.lunarg.com/ 환경변수(`VULKAN_SDK`)설정 됨 
 ### ✅ 2. Visual Studio 프로젝트 생성
