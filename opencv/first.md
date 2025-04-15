@@ -1,5 +1,5 @@
 ### Visual Stdio 실행(콘솔앱), Nuget 에서 opencv4 검색 후 설치
-### [hdf 라이브러리 다운오드 설치](https://support.hdfgroup.org/releases/hdf5/v1_14/v1_14_6/downloads/index.html)
+### [hdf 라이브러리 다운로드 설치](https://support.hdfgroup.org/releases/hdf5/v1_14/v1_14_6/downloads/index.html)
 
 ### 콘솔창 없애려면
 프로젝트 > 속성> 링커 > 시스템 > 하위 시스템 Windows (/SUBSYSTEM:WINDOWS)
