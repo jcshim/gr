@@ -2,8 +2,8 @@
 ### [hdf 라이브러리 다운로드 설치](https://support.hdfgroup.org/releases/hdf5/v1_14/v1_14_6/downloads/index.html)
 
 ### 콘솔창 없애려면
-프로젝트 > 속성> 링커 > 시스템 > 하위 시스템 Windows (/SUBSYSTEM:WINDOWS)
-프로젝트 > 속성> 링커 > 고급 > 진입점(엔트리 지점) mainCRTStartup
+1. 프로젝트 > 속성> 링커 > 시스템 > 하위 시스템 Windows (/SUBSYSTEM:WINDOWS)
+2. 프로젝트 > 속성> 링커 > 고급 > 진입점(엔트리 지점) mainCRTStartup
 
 ```
 #include <opencv2/opencv.hpp>
