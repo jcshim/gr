@@ -1,8 +1,7 @@
 ## Windows에서 Visual Studio로 Vulkan 무지게삼각형 그리기
 
 ### ✅ 1. Vulkan SDK 설치: https://vulkan.lunarg.com/ 환경변수(`VULKAN_SDK`)설정 됨 
-### ✅ 2. Visual Studio 프로젝트 생성
-- 빈 C++ 콘솔 애플리케이션으로 생성 / `main.cpp` 하나 만들기
+### ✅ 2. Visual Studio 콘솔 프로젝트 생성 
 ### ✅ 3. NuGet으로 GLFW 설치 (창 생성용)
 - `도구 > NuGet 패키지 관리자 > 찾아보기 탭 < **glfw**
 ### ✅ 4. 프로젝트 속성 설정
@@ -16,8 +15,8 @@
 프로젝트 > 속성 > 구성 속성 > 일반 > 플랫폼 도구 집합 > **Visual Studio 2022 (v143)** 선택
 
 ## .\shaders 폴더를 만든다. 
-### .\shaders\shader.frag 만들기
-### .\shaders\shader.vert 만들기
+### .\shaders\[shader.vert](https://vulkan-tutorial.com/code/09_shader_base.vert)  만들기
+### .\shaders\[shader.frag](https://vulkan-tutorial.com/code/09_shader_base.frag) 만들기 
 ## cd .\shaders\ 및 컴파일 하기
 C:/VulkanSDK/1.4.309.0/Bin/glslc.exe shader.vert -o vert.spv
 C:/VulkanSDK/1.4.309.0/Bin/glslc.exe shader.frag -o frag.spv
