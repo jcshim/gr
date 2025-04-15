@@ -3,9 +3,6 @@
 ### ✅ 1. Vulkan SDK 설치: https://vulkan.lunarg.com/ 환경변수(`VULKAN_SDK`)설정 됨 
 ### ✅ 2. Visual Studio 프로젝트 생성
 - 빈 C++ 콘솔 애플리케이션으로 생성 / `main.cpp` 하나 만들기
-- 프로젝트 속성 변경하기 
-1. 프로젝트 > 속성> 링커 > 시스템 > 하위 시스템 Windows (/SUBSYSTEM:WINDOWS)
-2. 프로젝트 > 속성> 링커 > 고급 > 진입점(엔트리 지점) mainCRTStartup
 ### ✅ 3. NuGet으로 GLFW 설치 (창 생성용)
 - `도구 > NuGet 패키지 관리자 > 찾아보기 탭 < **glfw**
 ### ✅ 4. 프로젝트 속성 설정
@@ -17,6 +14,13 @@
 #### [Drawing a triangle Source Code](https://docs.vulkan.org/tutorial/latest/_attachments/16_frames_in_flight.cpp)
 ### <p>$\it{\large{\color{#DD6565}오류 해결방안 / **VS 17** 이상을 설정해야 함.}}$</p>
 프로젝트 > 속성 > 구성 속성 > 일반 > 플랫폼 도구 집합 > **Visual Studio 2022 (v143)** 선택
+
+## .\shaders 폴더를 만든다. 
+### .\shaders\shader.frag 만들기
+### .\shaders\shader.vert 만들기
+## cd .\shaders\ 및 컴파일 하기
+C:/VulkanSDK/1.4.309.0/Bin/glslc.exe shader.vert -o vert.spv
+C:/VulkanSDK/1.4.309.0/Bin/glslc.exe shader.frag -o frag.spv
 
 ---
 ## 🎨 Shaders란?
@@ -71,3 +75,8 @@ void main() {
 ## GLSL → SPIR-V 컴파일 방법?
 C:/VulkanSDK/1.4.309.0/Bin/**glslc.exe** shader.vert -o vert.spv
 C:/VulkanSDK/1.4.309.0/Bin/**glslc.exe** shader.frag -o frag.spv
+
+
+## 프로젝트 속성 변경하기 (프람프트창 없애기)
+1. 프로젝트 > 속성> 링커 > 시스템 > 하위 시스템 Windows (/SUBSYSTEM:WINDOWS)
+2. 프로젝트 > 속성> 링커 > 고급 > 진입점(엔트리 지점) mainCRTStartup
