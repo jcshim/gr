@@ -1,5 +1,4 @@
 ## Windows에서 Visual Studio로 Vulkan 무지게삼각형 그리기
-### [Drawing a triangle](https://docs.vulkan.org/tutorial/latest/_attachments/16_frames_in_flight.cpp)
 
 ### ✅ 1. Vulkan SDK 설치: https://vulkan.lunarg.com/ 환경변수(`VULKAN_SDK`)설정 됨 
 ### ✅ 2. Visual Studio 프로젝트 생성
@@ -15,7 +14,8 @@
 **(3)** `링커 > 입력 > 추가 종속성`에 다음 추가: **vulkan-1.lib**
 ### ✅ 5. 삼각형 출력 코드 작성
 - `main.cpp`에 Vulkan 초기화 및 그리기 코드를 작성 (필요 시 예제 코드 제공 가능)
-### <p>$\it{\large{\color{#DD6565}오류 해결방안 / VS 17 이상을 설정해야 함.}}$</p>
+#### [Drawing a triangle Source Code](https://docs.vulkan.org/tutorial/latest/_attachments/16_frames_in_flight.cpp)
+### <p>$\it{\large{\color{#DD6565}오류 해결방안 / **VS 17** 이상을 설정해야 함.}}$</p>
 프로젝트 > 속성 > 구성 속성 > 일반 > 플랫폼 도구 집합 > **Visual Studio 2022 (v143)** 선택
 
 ---
