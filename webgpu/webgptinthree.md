@@ -91,15 +91,16 @@ document.body.innerHTML = `<h2 style="color:red;">WebGPU not supported ...</h2>`
       body { margin: 0; overflow: hidden; }
     </style>
 
-    <!-- Import map for CDN -->
-    <script type="importmap">
-      {
-        "imports": {
-          "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
-          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
-        }
-      }
-    </script>
+<!-- Import map for CDN -->
+<script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/"
+    }
+  }
+</script>
+
   </head>
 
   <body>
